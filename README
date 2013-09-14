@@ -1,0 +1,9 @@
+Python wrapper for sparsehash.
+
+If sparsehash header file is't in default folder, add include_dirs option to setup.py.
+
+Key can be either string(default) or integer(64bit)
+If you wants integer key, add KEY_INTEGER macro option to setup.py.
+Value can be anything.
+
+python setup.py install
