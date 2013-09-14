@@ -45,7 +45,7 @@ SparseHashMap_init(SparseHashMap *self, PyObject *args, PyObject *kwds)
 #ifdef KEY_INTEGER
     self->mapper.set_deleted_key(-1);
 #else
-    self->mapper.set_deleted_key("0xFF0xFF0xFF0xFF");
+    self->mapper.set_deleted_key("");
 #endif
     return 0;
 }
